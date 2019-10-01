@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MyWebApp:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyWebApp_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MyWebApp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="mysql-connector-java-5.1.45-bin.jar" module-name="MyWebApp" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="MyWebApp/web/Web" />
+    </root>
+  </artifact>
+</component>
